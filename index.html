@@ -6,19 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Intranet</h1>
+    <h1>Intranet titre1 balise utilisée h1 </h1> 
     <p> Test Texte
         <br> on va à la ligne
         <br> on va une deuxième fois à la ligne
         <br> avec la balise "br" on va à la ligne ne pas oublier de mettre les chevrons entre le br
 
-       <br> <a href="https://www.google.be/?hl=fr">Trouve toutes les informations de ton entreprise ici! </a>
+       <br> <a href="https://www.google.be/?hl=fr">Trouve toutes les informations de ton entreprise ici! Pour mettre un texte avec un lien internet </a>
         <div>
            <br> image d'une source internet
             <br> <img src="https://th.bing.com/th/id/OIP.GcxEipIdkEt7YfQMRCDFwwHaEK?w=269&h=180&c=7&r=0&o=5&pid=1.7" width="50px">
             
             <br> image du pc
-            <br><img src="C:\Users\User\Documents\site_Statique_LauraM\SiteWebPublic\images site web\image index\aigle.jpg"width="100px"
+            <br><img src="C:\Users\User\Documents\site_Statique_LauraM\SiteWebPublic\images site web\image index\aigle.jpg"width="100px">
+            <img src="images site web/image corps de texte/W3.jfif"width="100px">
+
+            <br> image avec lien
+            <br><a href="https://www.google.be/?hl=fr"><img src="https://th.bing.com/th/id/OIP.GcxEipIdkEt7YfQMRCDFwwHaEK?w=269&h=180&c=7&r=0&o=5&pid=1.7" > </a >
+
+            
         </div>
     <h2> liste non ordonnée avec lien </h2>
         <ul>
@@ -38,6 +44,70 @@
                 <a href="https://www.booking.com/index.html?aid=1568910&label=frbe-edge-ntp-topsites-curate-ana"> Voyages </a> 
             </li>
         </ol>
+
+        <h3> faire un tableau </h3>
+        <table>
+             {
+                border: 1px solid black;
+              }
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Troisieme ligne</td>
+                <td>rien inscrit et donc champ blanc</td>
+                <td></td>
+              </tr>
+          </table>
+<div>
+    <h3> faire un formulaire - bien pour récolter les données des clients ou enquêtes de satisfaction </h3>
+<form>
+    <label> Demande </label>
+    <input type ="text">
+    <div>
+    <label> Age </label>
+    <input type ="number">
+    </div>
+    <div>
+    <label> Date </label>
+    <input type ="date">
+    
+    <input type ="button" value="OK">
+    </div>
+    <div>
+    <label> Mot de passe </label>
+    <input type ="password">
+    </div>
+
+    <div>
+    <label> Submit - pour envoyer les informations similaires à Button </label>
+    <input type ="submit">
+    </div>
+
+    <label> Quantité </label>
+    <input type ="Quantité">
+
+</form>
+</div>
+
+<h3> Faire des commentaires </h3>
+<!-- Faire des commentaires en utilisant la balise  : chevron + ! + --  est écrit en vert donc permet de s'y retrouver dans son code 
+ mais il n'apparait pas sur la page web-->
+    <br>Faire des commentaires en utilisant la balise  : chevron + ! + --  est écrit en vert donc permet de s'y retrouver dans son code 
+    mais il n'apparait pas sur la page web
+
     </p>
 </body>
 </html>
